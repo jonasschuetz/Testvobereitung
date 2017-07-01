@@ -1,6 +1,7 @@
 package Hbox;
 
 import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -57,6 +58,7 @@ public class HBoxcode extends HBox {
             setHgrow(label, Priority.ALWAYS);
             setHgrow(field, Priority.ALWAYS);
 
+            setAlignment(Pos.TOP_CENTER);
 
 
             button.setMaxHeight(1024);
